@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 
-class Exercises extends StatelessWidget {
-  final List<String> exercises;
+class Products extends StatelessWidget {
+  final List<String> products;
 
-  Exercises(this.exercises) {
-    print('[Exercises Widget] Constructor');
+  Products([this.products = const []]) {
+    print('[Products Widget] Constructor');
   }
 
   @override
   Widget build(BuildContext context) {
-    print('[Exercise Widget] build()');
+    print('[Products Widget] build()');
     return Column(
-      children: exercises
+      children: products
           .map((element) => Card(
                 child: Column(
                   children: <Widget>[
-                    // Image.asset('assets/runningtwo.jpg'),
+                    Image.asset('assets/food.jpg'),
                     Text(element)
                   ],
                 ),
