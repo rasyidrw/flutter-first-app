@@ -1,7 +1,7 @@
 # flutter_first
 
 A new Flutter project learning on Udemy Course.
-still progress..
+Still progress..
 
 ## Getting Started
 
