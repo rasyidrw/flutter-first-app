@@ -28,7 +28,7 @@ class _ProductManagerState extends State<ProductManager> {
 
   @override
   void didUpdateWidget(ProductManager oldWidget) {
-    print('[ProductsManager State] initState()');
+    print('[ProductsManager Widget] didUpdateWidget()');
     super.didUpdateWidget(oldWidget);
   }
 
